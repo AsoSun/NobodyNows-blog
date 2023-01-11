@@ -1,0 +1,39 @@
+---
+title: "理解 HTML CSS 语言"
+date: "2023-01-08"
+slug: "understand-html-css"
+category: IT
+tag: html, css
+---
+
+Hello World
+
+React.js Exampe:
+
+```js
+import React from 'react'
+import { createTheme, style } from '@vanilla-extract/css';
+
+const myFun = () =>{
+    return <h1> This is crazy </h1> // my example
+}
+
+
+
+export const [themeClass, vars] = createTheme ({
+  color: {
+    brand: 'blue',
+    white: '#fff'
+  },
+  space: {
+    small: '4px',
+    medium: '8px',
+  }
+});
+
+export const hero = style ({
+  backgroundColor: vars.color.brandd,
+  color: vars.color.white,
+  padding: vars.space.large
+});
+```

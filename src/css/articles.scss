@@ -1,0 +1,50 @@
+@use 'base';
+
+.article-list{
+    ul{
+        
+        list-style: none;
+        
+        // .date{
+        //     // margin-top: auto;
+        //     // margin-bottom: auto;
+        //     color: rgb(63, 63, 121);
+        //     font-size: 1.3rem;
+        // }
+        p{
+            margin: 0em;
+            font-weight: 350;
+        }
+        .article-link-text{
+            text-decoration: none;
+        }
+        
+    }
+}
+
+.article-gadget{
+    display: flex;
+    > div {
+        margin-right: 3rem;
+    }
+    .date{
+        font-family: Sen;
+        font-size: 1rem;
+        color: #6B717F;
+        margin-top: auto; //align veritically
+        margin-bottom: auto;
+
+        .icon{
+            vertical-align: middle;
+            padding-right: 0.4rem;
+           
+    
+        }
+        p{
+            vertical-align: middle;
+            display: inline-block; 
+        }
+    }
+}
+
+

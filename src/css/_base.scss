@@ -1,0 +1,73 @@
+/* html {
+    max-width: 70ch;
+    padding: 3em 1em;
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.25em;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    margin: 3em 0 1em;
+  }
+  
+  p,ul,ol {
+    margin-bottom: 2em;
+    color: #1e1e52;
+    font-family: -apple-system, Roboto, sans-serif, serif;
+  } */
+$font-text: LXGW WenKai Screen;
+$font-cn: Microsoft JhengHei, Hiragino Sans GB, Microsoft YaHei;
+$font-code: Fira Code;
+$font-function: Hiragino Sans GB, Roboto, sans-serif, serif;
+$color-text-blue: #303e7c;
+$color-text-grey: #45505f;
+$color-terminal: #282C34;
+$sticker: 
+              0 1px 1px rgba(0,0,0,0.11), 
+              0 1px 2px rgba(0,0,0,0.21);
+
+$sticker-enhance: 
+                  0 1px 1px rgba(0,0,0,0.11), 
+                  0 1px 2px rgba(0,0,0,0.11),
+                  0 4px 4px rgba(0,0,0,0.11), 
+                  0 4px 6px rgba(0,0,0,0.11);
+                  
+span{
+
+  &.tag{
+    display: inline-block;
+    color: $color-text-grey;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 0.2px solid rgba(0,0,0,0.11);
+    box-shadow: $sticker
+               
+              
+}
+
+}
+
+/*highlight code*/
+
+pre{
+  background-color: $color-terminal ;
+  background-image: url(../images/command.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: 1rem 1rem!important;
+  padding: 2rem 2rem;
+  margin: 2rem 0rem;
+  border-radius: 1rem;
+  border-left: 0.3rem solid rgba(139, 172, 255, 0.666);
+  box-shadow: 0 1px 1px rgba(132, 162, 226, 0.594), 
+
+  4px 1px 12px rgba(0,0,0,0.21),
+  4px 4px 14px rgba(0,0,0,0.11), 
+  0 6px 18px rgba(0,0,0,0.21);
+}
+
+html{
+  // background-color: #FAFAFB;
+
+}

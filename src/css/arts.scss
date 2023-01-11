@@ -1,0 +1,34 @@
+@use 'base';
+.gallery{
+    // margin-left: -10rem;
+    // margin-right: -10rem;
+    margin-top: 5rem;
+    h2{
+        margin-left: 3rem;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none; 
+        > li {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 2rem;
+            padding-bottom: 2rem;
+            text-align: center;
+            .image{
+                padding: 0.6rem 0.6rem;
+                border: 0.12rem solid rgba(64, 62, 62, 0.725);
+                box-shadow: base.$sticker-enhance;
+            }
+
+            .description{
+                font-family: Sen;
+                font-size: 1rem;
+            }
+            
+        }
+        
+    }
+
+}
