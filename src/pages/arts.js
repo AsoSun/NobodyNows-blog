@@ -26,7 +26,7 @@ const ArtPage = ({data}) => {
     )
 }
 
-export const queryPictures = () => graphql`
+export const queryPictures = graphql`
     query{
         allFile(filter:{sourceInstanceName: {eq: "pictures"}}) {
             nodes {

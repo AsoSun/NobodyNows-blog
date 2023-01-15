@@ -1,9 +1,12 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
+ * 
  */
+
+
 module.exports = {
   siteMetadata: {
-    title: `Nobody Nows 的博客`,
+    title: `巫女的药房`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
@@ -24,11 +27,20 @@ module.exports = {
         path: `${__dirname}/pictures/`
       }
     },
-    // "gatsby-plugin-mdx",
     "gatsby-plugin-sass",
+    
     {
       resolve:`gatsby-plugin-mdx`,
       options: {
+        mdxOptions: {
+          remarkPlugins:[
+            require(`remark-gfm`),
+            require('remark-footnotes')
+          ],
+          // rehypePlugins: [
+
+          // ],
+        },
         gatsbyRemarkPlugins: [
           {
             resolve:`gatsby-remark-prismjs`,
@@ -59,7 +71,7 @@ module.exports = {
               },
               escapeEntities: {},
             }
-          }
+          },
         ]
 
     }

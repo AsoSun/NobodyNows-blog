@@ -2,7 +2,7 @@ import { graphql } from "gatsby";
 import React from "react";
 import Layout from "../../components/layout";
 import Seo from "../../components/seo";
-import { Calendar } from "lucide-react";
+
 const Post = ({data, children}) => {
     return (
         <Layout pageTitle={data.mdx.frontmatter.title}>
