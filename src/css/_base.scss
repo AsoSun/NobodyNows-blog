@@ -58,13 +58,17 @@ pre{
   background-position: 1rem 1rem!important;
   padding: 2rem 2rem;
   margin: 2rem 0rem;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
   border-left: 0.3rem solid rgba(139, 172, 255, 0.666);
-  box-shadow: 0 1px 1px rgba(132, 162, 226, 0.594), 
+  // box-shadow: 0 1px 1px rgba(132, 162, 226, 0.594), 
 
-  4px 1px 12px rgba(0,0,0,0.21),
-  4px 4px 14px rgba(0,0,0,0.11), 
-  0 6px 18px rgba(0,0,0,0.21);
+  // 4px 1px 12px rgba(0,0,0,0.21),
+  // 4px 4px 14px rgba(0,0,0,0.11), 
+  // 0 6px 18px rgba(0,0,0,0.21);
+}
+
+div:has(>code){
+  display: inline-block;
 }
 
 html{

@@ -3,7 +3,7 @@ import { GatsbyImage, getImage} from "gatsby-plugin-image";
 import React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import "../css/arts.scss"
+
 const ArtPage = ({data}) => {
     return (
         <Layout pageTitle={"「随便画画」精选集"} className='arts'>

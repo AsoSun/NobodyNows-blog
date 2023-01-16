@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "gatsby"
 import useSiteMetaData from "../hooks/useSiteMetadata"
-import "../css/layout.scss"
+
 import { StaticImage } from "gatsby-plugin-image"
 // const pageStyles = {
 //     color: "#232129",

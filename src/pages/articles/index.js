@@ -3,7 +3,7 @@ import Layout from "../../components/layout";
 import Seo from "../../components/seo";
 import { graphql } from "gatsby";
 import { Link } from "gatsby";
-import '../../css/articles.scss'
+
 const ArticlesPage = ({data}) => {
     return (
         <Layout pageTitle={"我的文章"}>

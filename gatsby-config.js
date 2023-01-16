@@ -37,9 +37,6 @@ module.exports = {
             require(`remark-gfm`),
             require('remark-footnotes')
           ],
-          // rehypePlugins: [
-
-          // ],
         },
         gatsbyRemarkPlugins: [
           {
