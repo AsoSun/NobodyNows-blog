@@ -1,4 +1,4 @@
-import "./src/css/prism-tomorrow.scss"
-import './src/css/articles.scss'
-import "./src/css/layout.scss"
-import "./src/css/arts.scss"
+import '@scss/layout.scss'
+import '@scss/articles.scss'
+import '@scss/prism-tomorrow.scss'
+import '@scss/arts.scss'
